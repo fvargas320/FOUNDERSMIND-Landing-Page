@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Countdown } from './Countdown';
-import PreviewImage from '../images/Preview.png';
+import PreviewImage from '../Images/Preview.png';
 
 export const Hero = () => {
   return (
