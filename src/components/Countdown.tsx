@@ -9,7 +9,7 @@ export const Countdown = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date('2026-03-20T00:00:00Z').getTime();
+    const targetDate = new Date('2026-04-21T00:00:00Z').getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -32,7 +32,7 @@ export const Countdown = () => {
 
   return (
     <div className="flex flex-col items-center gap-3">
-      <div className="font-mono text-xs text-accent-muted uppercase tracking-widest">Releasing March 20, 2026</div>
+      <div className="font-mono text-xs text-accent-muted uppercase tracking-widest">Releasing April 21, 2026</div>
       <div className="flex gap-3 sm:gap-4 font-mono text-xl sm:text-2xl md:text-3xl font-bold bg-white/5 border border-white/10 px-4 sm:px-6 py-3 sm:py-4 rounded-lg backdrop-blur-sm">
         <div className="flex flex-col items-center min-w-[40px] sm:min-w-[50px]">
           <span>{timeLeft.days.toString().padStart(2, '0')}</span>
